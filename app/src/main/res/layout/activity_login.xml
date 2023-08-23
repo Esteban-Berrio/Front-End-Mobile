@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:background="@drawable/rectangulo"
     android:transitionGroup="false"
+    app:barrierMargin="4px"
     app:layoutDescription="@xml/activity_login_scene"
     tools:context=".Login">
 
 
     <TextView
         android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="387dp"
+        android:layout_height="93dp"
         android:allowUndo="false"
         android:autoText="false"
         android:fontFamily="@font/inter_black"
@@ -21,14 +22,13 @@
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FDFDFD"
-        android:textSize="48sp"
+        android:textSize="60sp"
         android:typeface="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -135,8 +135,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="156dp"
-        android:layout_height="181dp"
+        android:layout_width="222dp"
+        android:layout_height="232dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
